@@ -43,3 +43,4 @@ print(type(a))
 a = None #nonetype
 print(a)
 print(type(a))
+# hello
