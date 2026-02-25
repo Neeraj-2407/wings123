@@ -15,3 +15,7 @@ print(x[3:])
 
 x = ["neeraj","sai","rohit","prem","raghav","vamshi"] #range of index(negative)
 print(x[-3:-1])
+
+x = ["neeraj","sai","rohit","prem","raghav","vamshi"] #check if item exits
+if "sai" in x:
+    print("Yes,'sai' is in the list")
