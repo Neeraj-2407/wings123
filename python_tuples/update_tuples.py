@@ -14,3 +14,9 @@ x = ("neeraj","sai","prem") #adding tuple to tuple
 y = ("saikiran",)
 x += y
 print(x)
+
+x = ("pen","pencil","book")
+y = list(x)
+y.remove("book")
+x = tuple(y)
+print (x)
