@@ -15,8 +15,12 @@ y = ("saikiran",)
 x += y
 print(x)
 
-x = ("pen","pencil","book")
+x = ("pen","pencil","book") #remove an item in tuple
 y = list(x)
 y.remove("book")
 x = tuple(y)
 print (x)
+
+x = ("bat","ball","paper") #delete a tuple
+del x
+print(x)
