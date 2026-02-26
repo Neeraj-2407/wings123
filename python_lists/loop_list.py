@@ -3,7 +3,8 @@ for a in b:
     print(a)
 
 x = ["Neeraj","sai","vamshi"] #looping through the index numbers
-for i in range(len(x)):
+print(len(x))
+for i in range(x):
   print(x[i])
 
 x = ["Neeraj","sai","vamshi"]
@@ -13,4 +14,5 @@ while i < len(x):
   i = i + 1
 
 x = ["Neeraj","sai","vamshi"] #it prints all the values in the list
-[print(y) for y in x]
+z = [print(y) for y in x]
+print(z)
