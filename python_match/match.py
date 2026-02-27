@@ -15,3 +15,11 @@ match day:
     print("Saturday")
   case 7:
     print("Sunday")
+
+# checking more than one value match in one case by using | (pipe character) 
+day = 5
+match day:
+  case 1 | 2 | 3 | 4 | 5:
+    print("Today is a weekday")
+  case 6 | 7:
+    print("Today is a weekend!")   
